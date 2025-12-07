@@ -1,14 +1,18 @@
+<<<<<<< Updated upstream
 <?php
 require_once("config.php");
 requireLogin();
 $user = getCurrentUser();
 ?>
 
+=======
+>>>>>>> Stashed changes
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="styles.css">
     <title>Dashboard - Library Management System</title>
 </head>
@@ -58,3 +62,11 @@ $user = getCurrentUser();
     </footer>
 </body>
 </html>
+=======
+    <title>Document</title>
+</head>
+<body>
+    <h1>Correct</h1>
+</body>
+</html>
+>>>>>>> Stashed changes

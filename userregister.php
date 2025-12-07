@@ -137,6 +137,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $error = "Please Enter your password!";
     } else {
         $hash = password_hash($password, PASSWORD_DEFAULT);
+<<<<<<< Updated upstream
         $sql = "INSERT INTO users (name,nic,telephone,email,password) VALUES (?, ?, ?, ?, ?)";
         
         $stmt = mysqli_prepare($conn, $sql);
@@ -163,6 +164,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         }
         mysqli_stmt_close($stmt);
+=======
+        $sql = "INSERT INTO users (name,nic,telephone,email,password) VALUES ($name, $nic, $telephone, $email, $password)";
+
+        mysqli_query($conn, $sql);
+        header("Location:userlogin.php");
+>>>>>>> Stashed changes
     }
 
 }
