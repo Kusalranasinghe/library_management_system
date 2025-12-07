@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello</h1>
+    <h1>Sarasavi Library</h1>
+    <button><a href="userregister.php">Register</a></button>
+    <button><a href="userlogin.php">Login</a></button>
 </body>
 </html>
