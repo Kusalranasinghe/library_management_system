@@ -11,11 +11,7 @@
     }
 
     catch(mysqli_sql_exception) {
-        echo "not connected";
-    }
-
-    if($conn) {
-        echo "connected ";
+        die("Database connection failed: Please check your MySQL server");
     }
     
 ?>
